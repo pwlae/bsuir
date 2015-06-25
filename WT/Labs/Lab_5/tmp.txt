@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Лабораторная работа №5</title>
+<!--[if IE]>
+<link href="/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Lorem ipsum</h1>
+<p>qwer tyui opasdfg hjklz xcvbnm
+<br>
+djhcksejhckjeh h kjdh sh kshbvf djfhvb djfhb dhjfb dhbvjb qwer tyui opasdfg hjklz xcvbnm
+<br>
+djhcksejhckjeh h kjdh sh kshbvf djfhvb djfhb dhjfb dhbvjbjeh h kjdh sh kshbvf djfhvb djfhb dhjfb dhbvjb qwer tyui opasdfg hjklz xcvbnm
+<br>
+djhcksejhckjeh h kjdh sh kshbvf djfhvb djfhb dhjfb dhbvjb
+</p>
+<!-- комментарий #1 -->
+<!-- комментарий №2 -->
+<!-- комментарий_3 -->
+<!-- комментарий><4 -->
+</body>
+</html>

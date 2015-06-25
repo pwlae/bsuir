@@ -1,0 +1,85 @@
+body{
+	 margin: 0;
+	 padding: 0;
+	 font-family: Geneva, Arial, Helvetica, sans-serif;
+	 font-size: 12px;
+ }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+ 
+ /*HEADER*/
+#header{
+	background: #a8ddff;
+	text-align: center;
+}
+
+/*MENU*/
+#menu{
+	background-image: url(../img/image6.jpg);
+    background-size: 100%;
+}
+	#menu ul{
+		margin-left: 0;
+		padding-left: 20px;
+	}
+	#menu ul li{
+		list-style-type: none;
+		font-family: sans-serif;
+		font-weight: bold;
+		padding-top: 7px;
+	}
+	#menu a{
+		text-decoration: none;
+		color: black;
+	}
+
+	hr {
+		color: #0400b0;
+	}
+
+	label {
+		display: inline;
+	}
+	input[type=text], input[type=password]{
+		width: 80px;
+		background: #edf8ff;
+		border: 1px solid gray;
+	}
+	input[type=submit]{
+		background: #edf8ff;
+		border: 1px solid gray;
+	}
+
+/*NEWS*/
+#news{
+	padding: 4px;
+	background: #edf8ff;
+	}
+	#news table{
+		border-spacing: 7px 11px;
+	}
+	#news table a{
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+/*MAIN*/
+#content{
+	background: #edf8ff;
+	padding: 4px;
+}
+
+/*FOOTER*/
+#footer{
+	background: #cdebff;
+	text-align: center;
+}
+#contacts{
+    background-color: #0602b0;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
