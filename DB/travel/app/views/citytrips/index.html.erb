@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Citytrips</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Source</th>
+      <th>Destenation</th>
+      <th>Price</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @citytrips.each do |citytrip| %>
+      <tr>
+        <td><%= citytrip.name %></td>
+        <td><%= citytrip.source %></td>
+        <td><%= citytrip.destenation %></td>
+        <td><%= citytrip.price %></td>
+        <td><%= citytrip.city %></td>
+        <td><%= link_to 'Show', citytrip %></td>
+        <td><%= link_to 'Edit', edit_citytrip_path(citytrip) %></td>
+        <td><%= link_to 'Destroy', citytrip, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Citytrip', new_citytrip_path %>

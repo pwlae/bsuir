@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cruise.name %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @cruise.source %>
+</p>
+
+<p>
+  <strong>Destenation:</strong>
+  <%= @cruise.destenation %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cruise.price %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @cruise.city %>
+</p>
+
+<%= link_to 'Edit', edit_cruise_path(@cruise) %> |
+<%= link_to 'Back', cruises_path %>

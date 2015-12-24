@@ -1,0 +1,2 @@
+module CitytripsHelper
+end

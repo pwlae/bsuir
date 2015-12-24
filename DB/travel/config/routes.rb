@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  resources :airports
+  resources :citytrips
+  resources :hotels
+  resources :cruises
+  resources :flights
+  resources :cities
+  resources :countries
+  get 'static_pages/services'
+
+  get 'static_pages/home'
+
+  get 'static_pages/help'
+
   resources :articles do
     resources :comments
   end

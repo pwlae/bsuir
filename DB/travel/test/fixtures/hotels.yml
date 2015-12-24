@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  in: 2015-12-24
+  out: 2015-12-24
+  rating: 1
+  price: 1
+  city_id: 
+
+two:
+  name: MyString
+  in: 2015-12-24
+  out: 2015-12-24
+  rating: 1
+  price: 1
+  city_id: 

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @citytrip.name %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @citytrip.source %>
+</p>
+
+<p>
+  <strong>Destenation:</strong>
+  <%= @citytrip.destenation %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @citytrip.price %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @citytrip.city %>
+</p>
+
+<%= link_to 'Edit', edit_citytrip_path(@citytrip) %> |
+<%= link_to 'Back', citytrips_path %>

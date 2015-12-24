@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  number: 1
+  expire: 2015-12-23
+  cvv: MyString
+  user_id: 
+
+two:
+  type: 
+  number: 1
+  expire: 2015-12-23
+  cvv: MyString
+  user_id: 
