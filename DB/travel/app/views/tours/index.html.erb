@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tours</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Source</th>
+      <th>Destenation</th>
+      <th>Price</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tours.each do |tour| %>
+      <tr>
+        <td><%= tour.name %></td>
+        <td><%= tour.source %></td>
+        <td><%= tour.destenation %></td>
+        <td><%= tour.price %></td>
+        <td><%= tour.city %></td>
+        <td><%= link_to 'Show', tour %></td>
+        <td><%= link_to 'Edit', edit_tour_path(tour) %></td>
+        <td><%= link_to 'Destroy', tour, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tour', new_tour_path %>

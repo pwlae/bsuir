@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :tours
+  resources :promos
+  resources :prices
+  resources :bookings
   resources :airports
   resources :citytrips
   resources :hotels
