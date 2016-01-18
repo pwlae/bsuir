@@ -18,7 +18,9 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `news`
 -- ----------------------------
+DROP Database IF EXISTS BSUIR; 
 CREATE Database BSUIR;
+USE BSUIR;
 DROP TABLE IF EXISTS `news`;
 CREATE TABLE `news` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
