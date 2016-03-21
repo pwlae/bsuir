@@ -1,0 +1,201 @@
+#break
+{
+    background-color: #0000ff;
+    height: 0.3%;
+}
+
+#menu-tree
+{
+    border-spacing: 0;
+    color: #000000;
+    font-size: 11pt;
+    padding: 15px 0 15px 20px;
+    text-decoration: none;
+}
+
+#left-part
+{
+    left: 0;
+    padding: 5px 0 0 0;
+    position: absolute;
+    text-align: right;
+    width: 35%;
+}
+
+#left-part div
+{
+    padding: 8px 0 0 0;
+}
+
+#right-part
+{
+    padding: 5px 0 0 0;
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+
+#login-form
+{
+    font-size: 10pt;
+    position: relative;
+}
+
+#news-node
+{
+    margin: 20px 0 0 0;
+}
+
+#node-image
+{
+    display: inline;
+}
+
+#menu
+{
+    background-color: #faebd7;
+    background-image: url(img/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 81%;
+    position: absolute;
+    vertical-align: top;
+    width: 16%;
+}
+
+#menu input
+{
+    background-color: #c6e9ff;
+    margin: 3px 0 0 3px;
+    width: 100px;
+}
+
+#menu button
+{
+    background-color: #c6e9ff;
+    margin: 3px 0 0 3px;
+}
+
+#news
+{
+    font-size: 14pt;
+    font-weight: bold;
+    height: 77%;
+    padding: 10px 0 0 5px;
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+    width: 25%;
+}
+
+#content
+{
+    font-size: 10pt;
+    height: 77%;
+    left: 16%;
+    padding: 5px 5px 0 5px;
+    position: absolute;
+    right: 25%;
+}
+
+#content-wrapper
+{
+    height: 81%;
+    width: 100%;
+}
+
+#ads
+{
+    background-color: #c6e9ff;
+    height: 4%;
+    text-align: center;
+    width: 100%;
+}
+
+#date
+{
+    display: inline;
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+#news-content
+{
+    font-size: 11pt;
+    padding: 0 0 0 18px;
+}
+
+div
+{
+    border: 1px bold rgb(240, 35, 20);
+}
+
+body
+{
+    background-color: #ffffff;
+    background-color: #edf8ff;
+    border-spacing: 0;
+    font-family: Arial, Georgia, Serif;
+    font-size: 11pt;
+    margin: 0 0 0 0;
+}
+
+#logotype
+{
+    background-color: #a8ddff;
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 14.7%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#text-placeholder
+{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+#copyright
+{
+    background-color: #0000ff;
+    bottom: 4%;
+    color: #ffffff;
+    font-weight: bold;
+    height: 4%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 84%;
+}
+
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul a
+{
+    font-weight: bold;
+}
+
+ul
+{
+    font-size: 12pt;
+    margin: 0 0 0 0;
+    padding: 5px 0 0 20px;
+}
+
+ul ul
+{
+    font-size: 11pt;
+}
+
+ul ul ul
+{
+    font-size: 9pt;
+}

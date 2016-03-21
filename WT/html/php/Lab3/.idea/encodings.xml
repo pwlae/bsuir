@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/classes/Configuration.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/classes/HtmlContent.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/css/basic.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/site.cfg" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/contacts.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/content.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/main.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/main_menu.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/news.tpl" charset="windows-1251" />
+  </component>
+</project>
