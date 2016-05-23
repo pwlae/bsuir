@@ -15,7 +15,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="s5B-zc-XGG">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s5B-zc-XGG" id="KAy-Xe-7Ad">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -40,7 +40,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpN-hr-B2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-133" y="337"/>
+            <point key="canvasLocation" x="218" y="276"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sn0-Os-Hho">
@@ -56,7 +56,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BmX-Ej-NRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-669" y="343"/>
+            <point key="canvasLocation" x="-202" y="276"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -80,18 +80,26 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="AwO-Zw-6vG"/>
                                 </connections>
                             </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" id="CZP-aP-tFd">
+                                <rect key="frame" x="0.0" y="158" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="485682260.27274799">
+                                    <!--2016-05-23 07:44:20 +0000-->
+                                </date>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="shD-t6-4sd"/>
                     <connections>
                         <outlet property="buttonSave" destination="QLF-77-B9K" id="ilh-8j-T7J"/>
+                        <outlet property="datePicker" destination="CZP-aP-tFd" id="dzZ-c1-oHq"/>
                         <outlet property="textField" destination="4xH-lO-JKz" id="yXf-2H-QKG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="269" y="348"/>
+            <point key="canvasLocation" x="636" y="276"/>
         </scene>
     </scenes>
 </document>
