@@ -15,6 +15,7 @@
 		B07454B91CE7675B00106330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07454B71CE7675B00106330 /* LaunchScreen.storyboard */; };
 		B07454C41CE7675B00106330 /* labwork_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B07454C31CE7675B00106330 /* labwork_1Tests.m */; };
 		B07454CF1CE7675B00106330 /* labwork_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B07454CE1CE7675B00106330 /* labwork_1UITests.m */; };
+		B0FC0D501CF3358400B16B56 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FC0D4F1CF3358400B16B56 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B07454CA1CE7675B00106330 /* labwork_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labwork_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07454CE1CE7675B00106330 /* labwork_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = labwork_1UITests.m; sourceTree = "<group>"; };
 		B07454D01CE7675B00106330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FC0D4F1CF3358400B16B56 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FC0D501CF3358400B16B56 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		B074549D1CE7675B00106330 = {
 			isa = PBXGroup;
 			children = (
+				B0FC0D4F1CF3358400B16B56 /* libsqlite3.tbd */,
 				B07454A81CE7675B00106330 /* labwork_1 */,
 				B07454C21CE7675B00106330 /* labwork_1Tests */,
 				B07454CD1CE7675B00106330 /* labwork_1UITests */,
@@ -496,6 +500,7 @@
 				B07454D51CE7675B00106330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B07454D61CE7675B00106330 /* Build configuration list for PBXNativeTarget "labwork_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				B07454D81CE7675B00106330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B07454D91CE7675B00106330 /* Build configuration list for PBXNativeTarget "labwork_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				B07454DB1CE7675B00106330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
