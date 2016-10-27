@@ -1,40 +1,36 @@
 module LabWork
   require 'mysql2'
 
-	class Core
-		def initialize
-		end
+  class Core
+    def initialize
+    end
 
-		def increment(item)
-			item += 1
-		end
-	end
+    def increment(item)
+      item += 1
+    end
+  end
 
-	class Database < Core
-		def initialize
-			@client = Mysql2::Client.new(
-				{
-					hostname: '',
-					username: '',
-					database: ''
-				}
-			)
-	  end
+  class Database < Core
+    def initialize
+      @client = Mysql2::Client.new(
+        hostname: 'localhost',
+        username: 'pdanelian',
+        database: 'test'
+      )
+    end
 
-		def select_query()
-		end
-	end
+    def select_query
+    end
+  end
 
-	class Text < Core
-		def initialize
-	  end
+  class Text < Core
+    def initialize
+    end
 
-		def to_array
-		end
-	end
+    def to_array
+    end
+  end
 end
-
-
 
 class Text
   # TODO: test project
@@ -46,9 +42,9 @@ class Text
   def counter
     word_counter = Hash.new 0
     text_to_array.each do |word|
-      word_counter[word] +=1
+      word_counter[word] += 1
     end
-    word_counter.sort_by {|key,value| puts "#{key}: #{value}"}
+    word_counter.sort_by { |key, value| puts "#{key}: #{value}" }
     # text_array_without_duplicates.each do
     # p (to_array.length - text_array_without_duplicates.length)
     # p to_array.length
@@ -58,7 +54,7 @@ class Text
   def text_to_array(text = @text)
     text.split("\n").each do |line|
       line.split.join(' ').split(' ').each do |word|
-        @text_array << word
+        @text_array << word.downcase
       end
     end
     @text_array
